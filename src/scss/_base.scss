@@ -1,0 +1,39 @@
+/* Базовые стили (общие) */
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+:focus-visible {
+  outline-color: #fd0e11;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+button,
+input,
+.font-fix {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,31 @@
+/* скрытие и показ отдельных элементов на устройствах с разными экранами  */
+.tablet-hide {
+  display: block;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.tablet-show {
+  display: none;
+
+  @media (max-width: 1200px) {
+    display: block;
+  }
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  clip-path: inset(100%);
+}
