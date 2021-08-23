@@ -1,4 +1,7 @@
 .navigation-main {
+  @media (max-width: 970px) {
+    display: none;
+  }
 }
 
 .navigation-main__list {
@@ -11,13 +14,6 @@
   justify-content: center;
 }
 
-.navigation-main__item {
-  border-left: 1px solid #ffffff;
-  &:first-child {
-    border-left: none;
-  }
-}
-
 .navigation-main__link {
   font-weight: 500;
   font-size: 20px;
@@ -26,6 +22,17 @@
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
-  padding: 15px 25px;
+  padding: 10px 25px;
   display: block;
+  border-left: 1px solid #ffffff;
+  margin: 10px 0;
+
+  @media (max-width: 1420px) {
+    margin: 0;
+    font-size: 16px;
+  }
+}
+
+.navigation-main__item:first-child .navigation-main__link {
+  border-left: none;
 }

@@ -15,11 +15,18 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 
+  @media (max-width: 1420px) {
+    padding: 15px 25px;
+    font-size: 14px;
+  }
+
   &--white {
     background-color: #ffffff;
     color: #000000;
     border: 1px solid #ffffff;
   }
+
+
 
   @media (max-width: 500px) {
     font-size: 14px;

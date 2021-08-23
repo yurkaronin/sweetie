@@ -16,4 +16,10 @@
   width: 32px;
   height: 32px;
   display: block;
+
+  path {
+    @media (max-width: 800px) {
+      fill: #ffffff;
+    }
+  }
 }
