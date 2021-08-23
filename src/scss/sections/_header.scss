@@ -1,0 +1,42 @@
+.header {
+  background-color: #4b3c8f;
+  background-image: url("../img/bg/header.jpg");
+  // background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 25px 0;
+  min-height: 347px;
+
+  .logo {
+    max-width: 260px;
+    width: 100%;
+  }
+
+  .address-company {
+    max-width: 245px;
+    width: 100%;
+  }
+
+  .list-messengers {
+    max-width: 175px;
+    width: 100%;
+  }
+
+  .number-phone {
+    max-width: 210px;
+    width: 100%;
+  }
+
+  .button-custom {
+    max-width: 315px;
+    width: 100%;
+  }
+}
+
+.header__top {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  margin-bottom: 45px;
+}

@@ -1,0 +1,60 @@
+.button-custom {
+  background-color: linear-gradient(180deg, #0c94fb 5%, #004cda 89.29%), #0c96fc;
+  border-radius: 20px 0;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  padding: 20px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #0c96fc;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  &--white {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 14px;
+    padding: 15px 20px;
+    // letter-spacing: 1px;
+  }
+
+  // &:hover,
+  // &:focus {
+  //   background: #8d63d7;
+  //   border-color: #8d63d7;
+  //   color: #ffffff;
+  // }
+  // &:active {
+  //   background: #a980f0;
+  //   border-color: #a980f0;
+  //   color: #ffffff;
+  // }
+
+  // &--light {
+  //   background-color: #80c41c;
+  //   border-color: #80c41c;
+  //   color: #000000;
+
+  //   &:hover,
+  //   &:focus {
+  //     background: #237d26;
+  //     border-color: #237d26;
+  //     color: #ffffff;
+  //   }
+
+  //   &:active {
+  //     background: #31b636;
+  //     border-color: #31b636;
+  //     color: #ffffff;
+  //   }
+  // }
+}
