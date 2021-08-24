@@ -1,7 +1,7 @@
 .first-screen {
   margin-top: -120px;
   position: relative;
-  padding: 70px 0 105px;
+  padding: 70px 0 85px;
 
   @media (max-width: 1420px) {
     margin-top: -50px;
@@ -140,15 +140,16 @@
   position: relative;
 
   &::before {
-    content: "►";
-    color: #4b3c8f;
-    margin-right: 10px;
+    @media (max-width: 970px) {
+      content: "►";
+      color: #4b3c8f;
+      margin-right: 10px;
+    }
   }
 
   @media (max-width: 970px) {
     margin: 0;
   }
-
 }
 .benefits-list__icon {
   @media (max-width: 970px) {

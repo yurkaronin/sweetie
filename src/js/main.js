@@ -1,14 +1,16 @@
-// Слайдер лучшие выиграные дела - темный фон
+// Слайдер производители конфет
 var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 5,
+  spaceBetween: 80,
+  autoHeight: true,
+  loop: true,
+  /* autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  }, */
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-  },
-  autoHeight: true,
-  loop: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
   },
 });
 
