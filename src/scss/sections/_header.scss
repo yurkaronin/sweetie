@@ -16,7 +16,7 @@
     min-height: 225px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 970px) {
     background-image: none;
     min-height: auto;
     padding: 15px 0;
@@ -96,12 +96,15 @@
     grid-template-columns: auto auto auto auto;
   }
 
+  @media (max-width: 970px) {
+    margin-bottom: 0;
+  }
+
   @media (max-width: 800px) {
     grid-template-columns: auto auto auto;
   }
 
   @media (max-width: 600px) {
     grid-template-columns: auto auto;
-    margin-bottom: 0;
   }
 }
