@@ -1,12 +1,18 @@
 .first-screen {
-  margin-top: -50px;
+  margin-top: -120px;
   position: relative;
+  padding: 70px 0 105px;
 }
 
 .first-screen__top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 .first-screen__details {
   max-width: 515px;
+  position: relative;
 }
 .first-screen__title {
   font-size: 70px;
@@ -14,7 +20,7 @@
   text-transform: uppercase;
   color: #000000;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   font-weight: 400;
   span {
     color: #0c96fc;
@@ -26,13 +32,20 @@
   line-height: 140%;
   color: #000000;
   margin: 0;
-  margin-bottom: 40px;
 }
 .first-screen__label {
+  position: absolute;
+  top: -20px;
+  right: -240px;
+  max-width: 190px;
+  display: block;
 }
 .first-screen__image {
+  max-width: 655px;
+  margin-top: -35px;
 }
 .first-screen__photo {
+  display: block;
 }
 .first-screen__bottom {
   max-width: 1270px;
@@ -44,7 +57,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .benefits-list__item {
   max-width: 355px;
