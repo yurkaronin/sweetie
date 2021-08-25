@@ -16,6 +16,18 @@
   align-items: center;
   padding-left: 35px;
 
+  @media (max-width: 970px) {
+    text-transform: none;
+    font-size: 38px;
+    padding-left: 0;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
   &::before {
     content: "";
     display: block;
@@ -25,6 +37,10 @@
     position: absolute;
     left: 0;
     top: 10px;
+
+    @media (max-width: 970px) {
+      display: none;
+    }
   }
 }
 .section-header__description {
@@ -35,4 +51,9 @@
   color: #000000;
   margin: 0;
   margin-bottom: 55px;
+
+  @media (max-width: 970px) {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
 }

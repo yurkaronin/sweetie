@@ -8,6 +8,14 @@
   padding: 80px 0 110px;
   position: relative;
 
+  @media (max-width: 1400px) {
+    padding: 80px 0;
+  }
+  @media (max-width: 600px) {
+    padding: 30px 0;
+    background-image: none;
+  }
+
   .button-custom {
     z-index: 5;
     position: relative;
@@ -21,6 +29,11 @@
   margin-bottom: 75px;
   position: relative;
   z-index: 5;
+
+  @media (max-width: 970px) {
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+  }
 }
 
 .potential-clients__gift {
@@ -29,4 +42,14 @@
   bottom: -150px;
   max-width: 370px;
   z-index: 0;
+
+  @media (max-width: 1400px) {
+    right: 35px;
+    bottom: 30px;
+    opacity: 0.45;
+  }
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
