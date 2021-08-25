@@ -1,7 +1,7 @@
 // Слайдер производители конфет
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 5,
-  spaceBetween: 80,
+  /* slidesPerView: 5,
+  spaceBetween: 80, */
   autoHeight: true,
   loop: true,
   /* autoplay: {
@@ -12,6 +12,27 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    400: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    },
+    // when window width is >= 480px
+    600: {
+      slidesPerView: 4,
+      spaceBetween: 80
+    },
+    // when window width is >= 640px
+    950: {
+      slidesPerView: 5,
+      spaceBetween: 80
+    }
+  }
 });
 
 // Слайдер Примеры работ и выигранных дел
