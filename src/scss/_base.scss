@@ -11,7 +11,7 @@ html {
 }
 
 :focus-visible {
-  outline-color: #fd0e11;
+  outline-color: #de2c27;
 }
 
 img {
@@ -33,7 +33,13 @@ body {
 
 a,
 button,
-input,
-.font-fix {
+input {
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #de2c27;
+  font-size: 16px;
+  line-height: 120%;
+  text-decoration-line: underline;
 }

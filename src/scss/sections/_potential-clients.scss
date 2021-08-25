@@ -1,0 +1,13 @@
+.potential-clients {
+  // background-color: #ffc77f;
+  background-image: url("../img/bg/fon1.png");
+  color: #000000;
+  padding: 80px 0 110px;
+}
+
+.potential-clients__list {
+  display: grid;
+  gap: 45px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 75px;
+}

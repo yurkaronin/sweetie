@@ -1,5 +1,5 @@
 .button-custom {
-  background-color: linear-gradient(180deg, #0c94fb 5%, #004cda 89.29%), #0c96fc;
+  background: linear-gradient(180deg, #0c94fb 5%, #004cda 89.29%), #0c96fc;
   border-radius: 20px 0;
   color: #ffffff;
   font-style: normal;
@@ -14,54 +14,47 @@
   font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  filter: drop-shadow(0 6px 8px rgba(0, 96, 175, 0.4));
+
+  &:hover {
+    background: #0c96fc;
+    filter: drop-shadow(0 6px 8px rgba(0, 96, 175, 0.4));
+  }
+
+  &:active,
+  &:focus {
+    background: #0c96fc;
+    filter: none;
+  }
+
+  &--white {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+
+    &:hover {
+      background: #f89721;
+      color: #ffffff;
+      border-color: #f89721;
+      filter: drop-shadow(0 6px 8px rgba(0, 96, 175, 0.4));
+    }
+
+    &:active,
+    &:focus {
+      background: #f89721;
+      color: #ffffff;
+      border-color: #f89721;
+      filter: none;
+    }
+  }
 
   @media (max-width: 1420px) {
     padding: 15px 25px;
     font-size: 14px;
   }
 
-  &--white {
-    background-color: #ffffff;
-    color: #000000;
-    border: 1px solid #ffffff;
-  }
-
-
-
   @media (max-width: 500px) {
     font-size: 14px;
     padding: 15px 20px;
-    // letter-spacing: 1px;
   }
-
-  // &:hover,
-  // &:focus {
-  //   background: #8d63d7;
-  //   border-color: #8d63d7;
-  //   color: #ffffff;
-  // }
-  // &:active {
-  //   background: #a980f0;
-  //   border-color: #a980f0;
-  //   color: #ffffff;
-  // }
-
-  // &--light {
-  //   background-color: #80c41c;
-  //   border-color: #80c41c;
-  //   color: #000000;
-
-  //   &:hover,
-  //   &:focus {
-  //     background: #237d26;
-  //     border-color: #237d26;
-  //     color: #ffffff;
-  //   }
-
-  //   &:active {
-  //     background: #31b636;
-  //     border-color: #31b636;
-  //     color: #ffffff;
-  //   }
-  // }
 }

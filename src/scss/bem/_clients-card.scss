@@ -1,0 +1,42 @@
+.clients-card {
+  max-width: 435px;
+}
+.clients-card__title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.clients-card__image {
+  border-radius: 0 30px 30px 30px;
+  display: block;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.clients-card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.clients-card__item {
+  display: flex;
+  padding-left: 55px;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 25px;
+}
+.clients-card__icon {
+  max-width: 30px;
+  position: absolute;
+  left: 0;
+}
+.clients-card__text {
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+  margin: 0;
+}
