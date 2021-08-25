@@ -84,7 +84,9 @@
 
   @media (max-width: 970px) {
     max-width: 460px;
-    opacity: 0.4;
+    opacity: 0.25;
+    top: auto;
+    bottom: 20px;
   }
 
   @media (max-width: 370px) {
