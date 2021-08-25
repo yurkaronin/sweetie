@@ -1,0 +1,46 @@
+.tabs-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tabs-list__item {
+  border-radius: 20px 0;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #eaeaea;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 12px 35px 10px;
+  background: #eaeaea;
+  color: #000000;
+  filter: none;
+  letter-spacing: 2px;
+  margin: 0 45px 0 0;
+
+  &:hover {
+    background: #f89721;
+    color: #ffffff;
+    border-color: #f89721;
+    filter: none;
+  }
+
+  &:active,
+  &:focus {
+    background: #f89721;
+    color: #ffffff;
+    border-color: #f89721;
+    filter: none;
+  }
+
+  &--active {
+    background: #f89721;
+    color: #ffffff;
+    border-color: #f89721;
+  }
+}
