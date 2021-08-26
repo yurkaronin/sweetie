@@ -1,0 +1,46 @@
+.label-list {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  max-width: max-content;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.label-list__item {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #0c96fc;
+  padding: 5px 0;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+  width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  flex-direction: column;
+
+  &--sale {
+    background-color: #de2c27;
+  }
+  &--popular {
+    background-color: #fe9782;
+    color: #000000;
+  }
+  &--availability {
+    background-color: #4d3e93;
+  }
+
+  small {
+    text-transform: none;
+    font-size: 9px;
+    display: inline-block;
+    font-weight: 400;
+  }
+}

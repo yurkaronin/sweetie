@@ -1,0 +1,29 @@
+.label-weight {
+  position: absolute;
+  max-width: 120px;
+  height: 45px;
+  left: 30px;
+  top: -18px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+  background: #0c96fc;
+  border-radius: 0 20px 20px 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+  padding: 12px 22px;
+  padding-left: 15px;
+  align-items: center;
+
+  &::before {
+    content: "";
+    display: block;
+    background-image: url("../img/icons/weight.svg");
+    width: 13px;
+    height: 17px;
+    left: 0;
+    margin-right: 8px;
+  }
+}
