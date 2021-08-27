@@ -1,7 +1,6 @@
 .label-weight {
   position: absolute;
   max-width: 120px;
-  height: 45px;
   left: 30px;
   top: -18px;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
@@ -16,6 +15,13 @@
   padding: 12px 22px;
   padding-left: 15px;
   align-items: center;
+
+  @media (max-width: 1420px) {
+    padding: 5px 10px;
+    font-size: 12px;
+    top: -13px;
+    left: 20px;
+  }
 
   &::before {
     content: "";

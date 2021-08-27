@@ -3,7 +3,7 @@
 }
 
 .popular-gifts__tabs-navigation {
-  margin-bottom: 65px;
+  margin-bottom: 40px;
 }
 
 .popular-gifts__tabs-content {
@@ -14,11 +14,28 @@
   display: none;
 
   &.active {
-    display: grid;
+    display: block;
   }
 }
 .popular-gifts__card-wrapper {
   display: grid;
   gap: 45px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 90px;
+  }
+
+  @media (max-width: 1050px) {
+    gap: 45px;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 570px) {
+    grid-template-columns: 1fr;
+  }
 }
