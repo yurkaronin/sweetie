@@ -7,6 +7,17 @@
 }
 
 .popular-gifts__tabs-content {
+  margin-bottom: 70px;
+}
+
+.popular-gifts__card-group {
+  display: none;
+
+  &.active {
+    display: grid;
+  }
+}
+.popular-gifts__card-wrapper {
   display: grid;
   gap: 45px;
   grid-template-columns: 1fr 1fr 1fr 1fr;

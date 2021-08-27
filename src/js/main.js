@@ -1,3 +1,32 @@
+// табы популярных товаров на главной странице
+const tabsBtn = document.querySelectorAll(".tabs-list__item");
+const tabsItems = document.querySelectorAll(".popular-gifts__card-group");
+
+tabsBtn.forEach(onTabClick);
+
+function onTabClick(item) {
+  item.addEventListener("click", function () {
+    let currentBtn = item;
+    let tabId = currentBtn.getAttribute("data-tab");
+    let currentTab = document.querySelector(tabId);
+
+    if (!currentBtn.classList.contains('active')) {
+      tabsBtn.forEach(function (item) {
+        item.classList.remove('active');
+      });
+
+      tabsItems.forEach(function (item) {
+        item.classList.remove('active');
+      });
+
+      currentBtn.classList.add('active');
+      currentTab.classList.add('active');
+    }
+  });
+}
+
+document.querySelector('.tabs-list__item').click();
+
 // Слайдер производители конфет
 var swiper = new Swiper(".mySwiper", {
   /* slidesPerView: 5,
