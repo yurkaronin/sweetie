@@ -25,15 +25,15 @@
 
 .potential-clients__list {
   display: grid;
-  gap: 45px;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, 430px);
+  justify-content: center;
   margin-bottom: 75px;
   position: relative;
   z-index: 5;
 
-  @media (max-width: 970px) {
-    grid-template-columns: 1fr;
-    margin-bottom: 50px;
+  @media (max-width: 600px) {
+    grid-template-columns: auto;
   }
 }
 
