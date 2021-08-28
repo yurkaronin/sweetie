@@ -1,6 +1,6 @@
 // табы популярных товаров на главной странице
 const tabsBtn = document.querySelectorAll(".tabs-list__item");
-const tabsItems = document.querySelectorAll(".popular-gifts__card-group");
+const tabsItems = document.querySelectorAll(".card-list__group");
 
 tabsBtn.forEach(onTabClick);
 

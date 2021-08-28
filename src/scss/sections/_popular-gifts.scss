@@ -1,6 +1,18 @@
 .popular-gifts {
   padding: 85px 0 95px;
   padding-bottom: 0;
+
+  .text-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .text-wrapper__title {
+    margin-top: 0;
+  }
+
+  .text-wrapper__text {
+    margin: 0;
+  }
 }
 
 .popular-gifts__tabs-navigation {
@@ -9,34 +21,4 @@
 
 .popular-gifts__tabs-content {
   margin-bottom: 70px;
-}
-
-.popular-gifts__card-group {
-  display: none;
-
-  &.active {
-    display: block;
-  }
-}
-.popular-gifts__card-wrapper {
-  display: grid;
-  gap: 45px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-
-  @media (max-width: 1200px) {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 90px;
-  }
-
-  @media (max-width: 1050px) {
-    gap: 45px;
-  }
-
-  @media (max-width: 900px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media (max-width: 570px) {
-    grid-template-columns: 1fr;
-  }
 }

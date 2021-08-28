@@ -1,0 +1,18 @@
+.card-list__group{
+  display: none;
+
+  &.active {
+    display: grid;
+  }
+}
+
+.product-card__details {
+  display: grid;
+  gap: 45px;
+  grid-template-columns: repeat(auto-fill, 310px);
+  justify-content: center;
+
+  @media (max-width: 570px) {
+    grid-template-columns: auto;
+  }
+}
