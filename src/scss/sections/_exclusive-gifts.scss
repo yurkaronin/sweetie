@@ -11,13 +11,54 @@
     padding: 80px 0;
   }
   @media (max-width: 600px) {
-    padding: 30px 0;
+    padding: 60px 0;
     background-image: none;
     background-color: #fba3aa;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  .section-header {
+    max-width: 800px;
+  }
+
+  .section-header__title {
+    margin-left: -35px;
+
+    @media (max-width: 970px) {
+      margin-left: 0;
+    }
+  }
+
+  .section-header__description {
+    margin-bottom: 30px;
+  }
+
+  .custom-list {
+    margin-bottom: 40px;
   }
 }
 
 .exclusive-gifts__wrapper {
-  max-width: 800px;
+  max-width: 600px;
   margin-left: 0;
+}
+
+.exclusive-gifts__image {
+  position: absolute;
+  top: -20px;
+  right: 105px;
+  max-width: 545px;
+
+  @media (max-width: 1400px) {
+    right: 0;
+    max-width: 440px;
+    opacity: 0.5;
+  }
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
