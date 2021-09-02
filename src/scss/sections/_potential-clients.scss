@@ -1,5 +1,4 @@
 .potential-clients {
-  // background-color: #ffc77f;
   background-image: url("../img/bg/fon1.png");
   background-repeat: no-repeat;
   background-position: top center;
@@ -17,9 +16,14 @@
     background-color: #ffc77f;
   }
 
+  .section-header {
+    margin-bottom: 45px;
+  }
+
   .button-custom {
     z-index: 5;
     position: relative;
+    padding: 32px 35px;
   }
 }
 
@@ -27,21 +31,23 @@
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(auto-fill, 430px);
-  justify-content: center;
-  margin-bottom: 75px;
+  justify-content: space-between;
+  margin-bottom: 15px;
   position: relative;
   z-index: 5;
 
   @media (max-width: 600px) {
     grid-template-columns: auto;
+    justify-content: center;
   }
 }
 
 .potential-clients__gift {
   position: absolute;
-  right: 35px;
-  bottom: -150px;
-  max-width: 370px;
+  right: 0;
+  bottom: -95px;
+  max-width: 450px;
+
   z-index: 0;
 
   @media (max-width: 1400px) {

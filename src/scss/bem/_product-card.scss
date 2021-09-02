@@ -4,9 +4,7 @@
   background: linear-gradient(180deg, #ffe8e8 0%, #fffcee 100%);
   border-radius: 0 0 30px 0;
   color: #000000;
-  padding: 45px;
-  padding-bottom: 10px;
-  transition: transform 2s;
+  padding: 45px 35px;
 
   @media (max-width: 900px) {
     background: #ffffff;
@@ -21,11 +19,12 @@
 
 .product-card__photo {
   display: block;
-  margin: auto;
+  margin: 0 auto;
   max-width: 100%;
-  object-fit: cover;
+  // object-fit: cover;
+  object-fit: none;
   margin-bottom: 15px;
-  max-height: 189px;
+  min-height: 275px;
 
   @media (max-width: 1420px) {
     max-height: 130px;
@@ -43,7 +42,7 @@
   letter-spacing: 1px;
   color: #2d1c40;
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   display: inline-block;
 
   @media (max-width: 570px) {
@@ -86,9 +85,13 @@
 .product-card__button {
   width: 100%;
   margin: 0 auto;
-  position: relative;
+  position: absolute;
   opacity: 0;
-  bottom: -20px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  max-width: 80%;
+  padding: 30px 35px;
 
   @media (max-width: 900px) {
     opacity: 1;

@@ -1,5 +1,5 @@
 .promo {
-  padding: 65px 0 77px;
+  padding: 85px 0 77px;
   padding-top: 0;
 
   @media (max-width: 900px) {
@@ -21,8 +21,10 @@
     }
   }
 
+  .section-header,
   .section-header__title {
-    margin: 0;
+    margin-bottom: 0;
+    display: inline-block;
 
     @media (max-width: 1400px) {
       font-size: 28px;
@@ -36,6 +38,9 @@
   }
 
   .section-header__title::before {
+    height: 40px;
+    top: 12px;
+
     @media (max-width: 1400px) {
       height: 100%;
       top: auto;

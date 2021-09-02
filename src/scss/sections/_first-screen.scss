@@ -1,7 +1,7 @@
 .first-screen {
-  margin-top: -120px;
+  margin-top: -115px;
   position: relative;
-  padding: 70px 0 20px;
+  padding: 65px 0 0;
 
   @media (max-width: 1420px) {
     margin-top: -50px;
@@ -40,7 +40,7 @@
   text-transform: uppercase;
   color: #000000;
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   font-weight: 400;
 
   @media (max-width: 1420px) {
@@ -112,8 +112,4 @@
   @media (max-width: 1200px) {
     display: none;
   }
-}
-
-.first-screen__bottom {
-  max-width: 1270px;
 }

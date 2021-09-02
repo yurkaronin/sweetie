@@ -9,7 +9,7 @@
 .product-card__details {
   display: grid;
   gap: 45px;
-  grid-template-columns: repeat(auto-fill, 310px);
+  grid-template-columns: repeat(auto-fill, 313px);
   justify-content: center;
 
   @media (max-width: 570px) {

@@ -1,0 +1,26 @@
+.client-benefits {
+  padding: 85px 0 100px;
+  position: relative;
+
+  .section-header {
+    margin-bottom: 45px;
+  }
+
+  .client-benefits__list {
+    grid-template-columns: repeat(auto-fill, 420px);
+    gap: 50px;
+  }
+
+  .benefits-list__item {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .benefits-list__title {
+    padding: 0;
+  }
+}
+
+.client-benefits__bg-image {
+  position: absolute;
+}

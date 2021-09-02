@@ -2,7 +2,7 @@
   background-image: url("../img/bg/border.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  padding: 105px 0;
+  padding: 90px 0 30px;
   background-size: contain;
 
   @media (max-width: 1420px) {
@@ -23,7 +23,7 @@
     max-width: 1080px;
 
     @media (max-width: 970px) {
-    padding-bottom: 20px;
-  }
+      padding-bottom: 20px;
+    }
   }
 }
