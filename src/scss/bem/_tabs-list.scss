@@ -1,11 +1,20 @@
 .tabs-list {
   display: grid;
   gap: 20px 45px;
-  grid-template-columns: repeat(auto-fill, 230px);
+  grid-template-columns: auto auto auto auto;
   align-items: center;
 
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
   @media (max-width: 420px) {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     justify-content: center;
   }
 }

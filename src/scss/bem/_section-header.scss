@@ -18,13 +18,14 @@
   padding-left: 35px;
   margin-left: -35px;
 
-  span {
-    color: #0c96fc;
+  @media (max-width: 992px) {
+    margin-left: 0;
   }
 
   @media (max-width: 970px) {
     text-transform: none;
     font-size: 38px;
+    line-height: 120%;
     padding-left: 0;
   }
 
@@ -32,6 +33,10 @@
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 15px;
+  }
+
+  span {
+    color: #0c96fc;
   }
 
   &::before {

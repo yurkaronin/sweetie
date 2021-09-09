@@ -4,7 +4,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 400px);
-  gap: 85px;
+  gap: 30px;
   align-items: center;
   position: relative;
   z-index: 5;
@@ -20,6 +20,11 @@
   position: relative;
   grid-template-columns: 50px auto;
   gap: 30px;
+
+  @media (max-width: 970px) {
+    grid-template-columns: 35px auto;
+    gap: 25px;
+  }
 
   .benefits-list__title {
     font-weight: 700;
