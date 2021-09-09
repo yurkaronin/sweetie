@@ -1,0 +1,50 @@
+.order-form {
+  background-image: url("../img/bg/fon3.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 90px 0 30px;
+  // background-size: contain;
+  color: #000000;
+  position: relative;
+  z-index: 5;
+
+  &::after {
+    content: "";
+    display: block;
+    background-image: url("../img/bg/toy.png");
+    width: 528px;
+    height: 748px;
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    bottom: -360px;
+
+  }
+
+  .section-header {
+    margin-bottom: 55px;
+  }
+
+  .section-header__title {
+    font-size: 50px;
+    line-height: 110%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+
+  .section-header__description {
+    margin: 0;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+  }
+}
+
+.order-form__wrapper {
+  display: grid;
+  gap: 120px;
+  grid-template-columns: 672px 595px;
+}
