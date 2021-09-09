@@ -17,11 +17,16 @@
     line-height: 130%;
     letter-spacing: 1px;
   }
-}
 
-.order-form__image {
-  border-radius: 30px;
-  max-width: 595px;
-  display: block;
-  object-fit: cover;
+  .button-custom {
+    font-size: 16px;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 25px 30px;
+
+    @media (max-width: 650px) {
+      font-size: 14px;
+      padding: 15px 20px;
+    }
+  }
 }
