@@ -1,9 +1,13 @@
-.card-list__group{
+.card-list__group {
   display: none;
 
   &.active {
     display: grid;
   }
+}
+
+.card-list__group--promo {
+  display: grid;
 }
 
 .product-card__details {
